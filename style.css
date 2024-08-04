@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.btn1 {
+    padding: 15px 32px;
+    background: yellowgreen;
+    border: none;
+    margin-left: 2rem;
+}
+
+.btn2 {
+    padding: 15px 32px;
+    background: yellowgreen;
+    border: none;
+    margin-left: 2rem;
+}
+
+button#btn1.btn2 {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+    button.btn1 {
+        margin-top: 0.5rem;
+    }
+    
+    button.btn2 {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    button.btn1 button.btn2 {
+        margin-left: 1rem;
+    }
+}
+
+.btn-style {
+    margin-top: 1rem;
+}
+
+marquee {
+    background: yellow;
+    margin-top: 1rem;
+}
+
+/* img {
+    position: sticky; 
+    margin-top: 32rem;
+    margin-left: 18rem;
+    margin-left: 55rem;
+} */
